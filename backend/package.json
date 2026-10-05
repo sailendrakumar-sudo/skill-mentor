@@ -1,0 +1,22 @@
+{
+  "name": "skill-mentor-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Skill Mentor - Peer-to-Peer Student Skill Exchange Platform",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "migrate": "node ../supabase/apply_migration.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.27.0",
+    "@google/generative-ai": "^0.24.1",
+    "@supabase/supabase-js": "^2.49.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.3",
+    "zod": "^3.24.2"
+  }
+}

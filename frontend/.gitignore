@@ -1,0 +1,20 @@
+# Environment secrets
+.env
+.env.*
+*.env
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+dist-ssr/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
